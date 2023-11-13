@@ -29,13 +29,22 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main {
+    padding: 20px;
+}
+
+.nav ul,
+.nav li {
+    background-color: $nav-color;
+}
+
 .navmeny a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #000000;
+    color: $font-alternative-color;
     font-size: 15px;
     font-weight: bold;
+    font-weight: bold;
     padding: 9px;
+    text-decoration: none;
 }
 
 .navmeny a:hover {
@@ -43,15 +52,32 @@ h6 {
 }
 
 .footer {
-    color: white;
-    background-color: #000000;
+    border-top: 11px solid #222;
+    bottom: 0;
+    color: $font-alternative-color;
     display: flex;
+    height: $footer-height;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    position: absolute;
+    width: 100%;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 10%;
+}
+
+.site-header {
+    display: flex;
 }
 
 .footer a {
     color: #222;
+}
+
+.footer i {
+    font-size: $symbolsize;
+    padding: $symbolpadding;
 }
 
 * {
