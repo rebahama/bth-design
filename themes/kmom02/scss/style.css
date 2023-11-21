@@ -73,7 +73,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -6459,8 +6460,7 @@ pre code {
 
 .landingpage {
   display: grid;
-  gap: 2em 2em;
-  justify-content: center;
+  gap: 1em 1em;
 }
 
 .landingpage h1 {
@@ -6548,4 +6548,4 @@ h6 {
 * {
   background-color: #d3d3d3;
   color: #000;
-}
+}/*# sourceMappingURL=style.css.map */

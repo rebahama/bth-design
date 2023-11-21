@@ -1,16 +1,17 @@
 .landingpage {
     display: grid;
-    gap: 1em 1em;
+    gap: 2em 2em;
+    justify-content: center;
 }
 
 .landingpage h1 {
-    grid-column: span 3;
+    grid-column: span 2;
     justify-self: center;
 }
 .box {
     margin: 20px;
     padding: 20px;
-    width: 200px;
+    width: 350px;
     color: $font-alternative-color;
     background-color: $nav-color;
     border-radius: 20px;
