@@ -6457,6 +6457,25 @@ pre code {
   padding: 1.1111em 0;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  color: #fff;
+  background-color: #00b8ff;
+  border-radius: 20px;
+}
+
 body {
   background-color: #3b4444;
 }

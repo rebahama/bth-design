@@ -1,0 +1,17 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+.box {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    color: $font-alternative-color;
+    background-color: $nav-color;
+    border-radius: 20px;
+}
