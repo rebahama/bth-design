@@ -6457,6 +6457,17 @@ pre code {
   padding: 1.1111em 0;
 }
 
+.grid-page {
+  display: grid;
+  gap: 2em 2em;
+  justify-content: center;
+}
+
+.grid-page h1 {
+  grid-column: span 2;
+  justify-self: center;
+}
+
 .landingpage {
   display: grid;
   gap: 2em 2em;
@@ -6464,7 +6475,7 @@ pre code {
 }
 
 .landingpage h1 {
-  grid-column: span 2;
+  grid-column: span 3;
   justify-self: center;
 }
 
@@ -6472,6 +6483,15 @@ pre code {
   margin: 20px;
   padding: 20px;
   width: 350px;
+  color: #fff;
+  background-color: #00b8ff;
+  border-radius: 20px;
+}
+
+.side-bar {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
   color: #fff;
   background-color: #00b8ff;
   border-radius: 20px;
