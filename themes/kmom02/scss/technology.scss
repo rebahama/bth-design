@@ -9,6 +9,7 @@
     justify-self: center;
 }
 
+
 .landingpage {
     display: grid;
     gap: 2em 2em;
@@ -21,23 +22,23 @@
 }
 
 .box {
+    background-color: $nav-color;
+    border-radius: $grid-padding;
+    color: $font-alternative-color;
     margin: $grid-padding;
     padding: $grid-padding;
     width: 350px;
-    color: $font-alternative-color;
-    background-color: $nav-color;
-    border-radius: $grid-padding;
 }
 
 .side-bar {
+    background-color: $nav-color;
+    border-radius: $grid-padding;
+    color: $font-alternative-color;
     display: flex;
     flex-direction: column;
     margin: $grid-padding;
     padding: $grid-padding;
     width: 200px;
-    color: $font-alternative-color;
-    background-color: $nav-color;
-    border-radius: $grid-padding;
 }
 
 .side-bar a {
