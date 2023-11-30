@@ -59,8 +59,10 @@ h6 {
     display: flex;
     height: $footer-height;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     width: 100%;
+
+
 }
 
 .logo img {
