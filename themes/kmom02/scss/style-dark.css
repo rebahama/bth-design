@@ -6471,6 +6471,8 @@ pre code {
 
 .landingpage {
   display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -6481,7 +6483,7 @@ pre code {
 }
 
 .box {
-  background-color: #00b8ff;
+  background-color: #5967F7;
   border-radius: 20px;
   color: #fff;
   margin: 20px;
@@ -6490,7 +6492,7 @@ pre code {
 }
 
 .side-bar {
-  background-color: #00b8ff;
+  background-color: #5967F7;
   border-radius: 20px;
   color: #fff;
   display: flex;
@@ -6520,12 +6522,18 @@ pre code {
     display: none;
   }
 }
-.main {
-  background-color: red;
-}
-
 * {
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #121529;
+}
+
+.main {
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
 }
 
 h1,
@@ -6537,13 +6545,9 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-.main {
-  padding: 20px;
-}
-
 .nav ul,
 .nav li {
-  background-color: #00b8ff;
+  background-color: #121C28;
 }
 
 .navmeny a {
@@ -6559,15 +6563,89 @@ h6 {
   color: #7C55FA;
 }
 
+.nav a {
+  color: #fff;
+}
+
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav-toggle {
+  color: #333;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.box {
+  background-color: #121C29;
+}
+
+.side-bar {
+  background-color: #121C29;
+}
+
+.index-page {
+  background-color: #121C29;
+  border-radius: 20px;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  background-color: #5999F7;
+  width: 50%;
+  height: 1px;
+}
+
 .footer {
-  border-top: 11px solid #222;
-  bottom: 0;
+  border-top: 11px solid #122927;
   color: #fff;
   display: flex;
   height: 5rem;
-  justify-content: space-between;
-  position: absolute;
+  justify-content: center;
   width: 100%;
+  background-color: #121C28;
+}
+
+.footer a {
+  padding: 20px;
+}
+
+.footer i {
+  background-color: #121C28;
+}
+
+.footer i:hover {
+  color: #7C55FA;
+}
+
+.social {
+  display: flex;
+  background-color: #121C28;
 }
 
 .logo img {
@@ -6589,6 +6667,5 @@ h6 {
 }
 
 * {
-  background-color: #d3d3d3;
-  color: #000;
+  color: #fff;
 }/*# sourceMappingURL=style-dark.css.map */

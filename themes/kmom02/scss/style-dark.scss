@@ -12,13 +12,20 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 
-.main{
-    background-color: red;
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #121529;
+
 }
 
 
-* {
-    font-family: 'Roboto', sans-serif;
+.main {
+    padding: 20px;
+    position: relative;
+    min-height: 100vh;
 }
 
 h1,
@@ -30,13 +37,10 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.main {
-    padding: 20px;
-}
 
 .nav ul,
 .nav li {
-    background-color: $nav-color;
+    background-color: $dark-nav;
 }
 
 .navmeny a {
@@ -52,17 +56,90 @@ h6 {
     color: $nav-hover;
 }
 
+.nav a {
+    color: $font-alternative-color;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0 1em;
+}
+
+
+.nav-toggle {
+    color: #333;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.box {
+    background-color: $background-dark-container;
+}
+.side-bar{
+    background-color: $background-dark-container;
+}
+
+
+.index-page {
+    background-color: $background-dark-container;
+    border-radius: $grid-padding;
+    color: $font-alternative-color;
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+}
+
+.index-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    background-color: $background-color;
+    width: $hr-width;
+    height: $hr-height;
+}
+
 .footer {
-    border-top: 11px solid #222;
-    bottom: 0;
+    border-top: 11px solid $dark-outline;
     color: $font-alternative-color;
     display: flex;
     height: $footer-height;
-    justify-content: space-between;
-    position: absolute;
+    justify-content: center;
     width: 100%;
+    background-color: $dark-nav;
+}
 
+.footer a {
+    padding: 20px;
+}
 
+.footer i {
+    background-color: $dark-nav;
+}
+
+.footer i:hover {
+    color: $nav-hover;
+}
+
+.social {
+    display: flex;
+    background-color: $dark-nav;
 }
 
 .logo img {
@@ -83,7 +160,8 @@ h6 {
     padding: $symbolpadding;
 }
 
+
+
 * {
-    background-color: $background-alternative-color;
-    color: $font-color;
+    color: $font-alternative-color;
 }
