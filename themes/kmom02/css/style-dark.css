@@ -6521,8 +6521,8 @@ pre code {
     display: none;
   }
 }
-body {
-  background-color: #5999F7;
+.main {
+  background-color: red;
 }
 
 * {
@@ -6540,8 +6540,6 @@ h6 {
 
 .main {
   padding: 20px;
-  position: relative;
-  min-height: 100vh;
 }
 
 .nav ul,
@@ -6563,26 +6561,14 @@ h6 {
 }
 
 .footer {
-  border-top: 11px solid #5999F7;
+  border-top: 11px solid #222;
+  bottom: 0;
   color: #fff;
   display: flex;
   height: 5rem;
-  justify-content: center;
+  justify-content: space-between;
+  position: absolute;
   width: 100%;
-  background-color: #00b8ff;
-}
-
-.footer a {
-  padding: 20px;
-}
-
-.footer i {
-  background-color: #00b8ff;
-}
-
-.social {
-  display: flex;
-  background-color: #00b8ff;
 }
 
 .logo img {
