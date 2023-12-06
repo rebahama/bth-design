@@ -55,6 +55,26 @@ h6 {
     color: $nav-hover;
 }
 
+.index-page {
+    background-color: $box-colours;
+    border-radius: $grid-padding;
+    color: $font-alternative-color;
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+}
+.index-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    background-color: $background-color;
+    width: $hr-width;
+    height: $hr-height;
+  }
+
 .footer {
     border-top: 11px solid $background-color;
     color: $font-alternative-color;
@@ -68,8 +88,13 @@ h6 {
 .footer a {
     padding: 20px;
 }
-.footer i{
+
+.footer i {
     background-color: $nav-color;
+}
+
+.footer i:hover {
+    color: $nav-hover;
 }
 
 .social {
