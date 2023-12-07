@@ -6526,6 +6526,14 @@ body {
   background-color: #5999F7;
 }
 
+h1 {
+  text-align: center;
+}
+
+a:hover {
+  color: #fff;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6581,8 +6589,14 @@ h6 {
 
 hr {
   background-color: #5999F7;
-  width: 50px;
+  width: 50%;
   height: 1px;
+}
+
+.box-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer {

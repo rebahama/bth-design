@@ -6536,6 +6536,10 @@ body {
   min-height: 100vh;
 }
 
+.h1 {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -6593,6 +6597,16 @@ h6 {
 
 .box {
   background-color: #121C29;
+}
+
+.box-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .side-bar {
