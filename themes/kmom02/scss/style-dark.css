@@ -6470,11 +6470,11 @@ pre code {
 }
 
 .landingpage {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 40px;
-  justify-content: center;
   align-items: center;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
 }
 
 .landingpage h1 {
@@ -6483,7 +6483,7 @@ pre code {
 }
 
 .box {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   margin: 20px;
@@ -6492,7 +6492,7 @@ pre code {
 }
 
 .side-bar {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   display: flex;
@@ -6508,7 +6508,7 @@ pre code {
 }
 
 .side-bar a:hover {
-  color: #7C55FA;
+  color: #7c55fa;
 }
 
 @media only screen and (max-width: 800px) {
@@ -6531,12 +6531,12 @@ body {
 }
 
 .main {
+  min-height: 100vh;
   padding: 20px;
   position: relative;
-  min-height: 100vh;
 }
 
-.h1 {
+h1 {
   text-align: center;
 }
 
@@ -6551,7 +6551,7 @@ h6 {
 
 .nav ul,
 .nav li {
-  background-color: #121C28;
+  background-color: #121c28;
 }
 
 .navmeny a {
@@ -6564,7 +6564,7 @@ h6 {
 }
 
 .navmeny a:hover {
-  color: #7C55FA;
+  color: #7c55fa;
 }
 
 .nav a {
@@ -6579,8 +6579,8 @@ h6 {
 .nav ul {
   display: flex;
   justify-content: flex-end;
-  padding: 1em 0;
   list-style: none;
+  padding: 1em 0;
 }
 
 .nav ul li {
@@ -6596,13 +6596,13 @@ h6 {
 }
 
 .box {
-  background-color: #121C29;
+  background-color: #121c29;
 }
 
 .box-containers {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 a:hover {
@@ -6610,11 +6610,11 @@ a:hover {
 }
 
 .side-bar {
-  background-color: #121C29;
+  background-color: #121c29;
 }
 
 .index-page {
-  background-color: #121C29;
+  background-color: #121c29;
   border-radius: 20px;
   color: #fff;
   margin: 20px;
@@ -6623,26 +6623,26 @@ a:hover {
 }
 
 .index-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 hr {
-  background-color: #5999F7;
-  width: 50%;
+  background-color: #5999f7;
   height: 1px;
+  width: 50%;
 }
 
 .footer {
+  background-color: #121c28;
   border-top: 11px solid #122927;
   color: #fff;
   display: flex;
   height: 5rem;
   justify-content: center;
   width: 100%;
-  background-color: #121C28;
 }
 
 .footer a {
@@ -6650,16 +6650,16 @@ hr {
 }
 
 .footer i {
-  background-color: #121C28;
+  background-color: #121c28;
 }
 
 .footer i:hover {
-  color: #7C55FA;
+  color: #7c55fa;
 }
 
 .social {
+  background-color: #121c28;
   display: flex;
-  background-color: #121C28;
 }
 
 .logo img {

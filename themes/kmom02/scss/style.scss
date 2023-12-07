@@ -38,9 +38,9 @@ h6 {
 }
 
 .main {
+    min-height: 100vh;
     padding: 20px;
     position: relative;
-    min-height: 100vh;
 }
 
 .nav ul,
@@ -71,32 +71,33 @@ h6 {
 }
 
 .index-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 hr {
     background-color: $background-color;
-    width: $hr-width;
     height: $hr-height;
+    width: $hr-width;
 }
 
 .box-containers {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .footer {
+    background-color: $nav-color;
     border-top: 11px solid $background-color;
     color: $font-alternative-color;
     display: flex;
     height: $footer-height;
     justify-content: center;
     width: 100%;
-    background-color: $nav-color;
+    
 }
 
 .footer a {
@@ -112,8 +113,8 @@ hr {
 }
 
 .social {
-    display: flex;
     background-color: $nav-color;
+    display: flex;
 }
 
 .logo img {

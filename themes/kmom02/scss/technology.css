@@ -10,11 +10,11 @@
 }
 
 .landingpage {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 40px;
-  justify-content: center;
   align-items: center;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
 }
 
 .landingpage h1 {
@@ -23,7 +23,7 @@
 }
 
 .box {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   margin: 20px;
@@ -32,7 +32,7 @@
 }
 
 .side-bar {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   display: flex;

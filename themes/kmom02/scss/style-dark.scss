@@ -23,12 +23,12 @@ body {
 
 
 .main {
+    min-height: 100vh;
     padding: 20px;
     position: relative;
-    min-height: 100vh;
 }
 
-.h1 {
+h1 {
     text-align: center;
 }
 
@@ -72,8 +72,9 @@ h6 {
 .nav ul {
     display: flex;
     justify-content: flex-end;
-    padding: 1em 0;
     list-style: none;
+    padding: 1em 0;
+   
 }
 
 .nav ul li {
@@ -94,12 +95,12 @@ h6 {
 }
 
 .box-containers {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-a:hover{
+a:hover {
     color: $font-alternative-color;
 }
 
@@ -118,26 +119,27 @@ a:hover{
 }
 
 .index-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 hr {
     background-color: $background-color;
-    width: $hr-width;
     height: $hr-height;
+    width: $hr-width;
 }
 
 .footer {
+    background-color: $dark-nav;
     border-top: 11px solid $dark-outline;
     color: $font-alternative-color;
     display: flex;
     height: $footer-height;
     justify-content: center;
     width: 100%;
-    background-color: $dark-nav;
+    
 }
 
 .footer a {
@@ -153,8 +155,8 @@ hr {
 }
 
 .social {
-    display: flex;
     background-color: $dark-nav;
+    display: flex;
 }
 
 .logo img {

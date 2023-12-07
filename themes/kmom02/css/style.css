@@ -6469,11 +6469,11 @@ pre code {
 }
 
 .landingpage {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 40px;
-  justify-content: center;
   align-items: center;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
 }
 
 .landingpage h1 {
@@ -6482,7 +6482,7 @@ pre code {
 }
 
 .box {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   margin: 20px;
@@ -6491,7 +6491,7 @@ pre code {
 }
 
 .side-bar {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   display: flex;
@@ -6507,7 +6507,7 @@ pre code {
 }
 
 .side-bar a:hover {
-  color: #7C55FA;
+  color: #7c55fa;
 }
 
 @media only screen and (max-width: 800px) {
@@ -6522,7 +6522,7 @@ pre code {
   }
 }
 body {
-  background-color: #5999F7;
+  background-color: #5999f7;
 }
 
 h1 {
@@ -6547,9 +6547,9 @@ h6 {
 }
 
 .main {
+  min-height: 100vh;
   padding: 20px;
   position: relative;
-  min-height: 100vh;
 }
 
 .nav ul,
@@ -6567,11 +6567,11 @@ h6 {
 }
 
 .navmeny a:hover {
-  color: #7C55FA;
+  color: #7c55fa;
 }
 
 .index-page {
-  background-color: #5967F7;
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   margin: 20px;
@@ -6580,32 +6580,32 @@ h6 {
 }
 
 .index-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 hr {
-  background-color: #5999F7;
-  width: 50%;
+  background-color: #5999f7;
   height: 1px;
+  width: 50%;
 }
 
 .box-containers {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .footer {
-  border-top: 11px solid #5999F7;
+  background-color: #00b8ff;
+  border-top: 11px solid #5999f7;
   color: #fff;
   display: flex;
   height: 5rem;
   justify-content: center;
   width: 100%;
-  background-color: #00b8ff;
 }
 
 .footer a {
@@ -6617,12 +6617,12 @@ hr {
 }
 
 .footer i:hover {
-  color: #7C55FA;
+  color: #7c55fa;
 }
 
 .social {
-  display: flex;
   background-color: #00b8ff;
+  display: flex;
 }
 
 .logo img {
