@@ -6701,6 +6701,15 @@ hr {
   padding: 15px;
 }
 
+.image-report-style {
+  width: 50%;
+}
+
+.loading-data-sheet {
+  height: 300px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 800px) {
   .grid-page-gallery h1 {
     grid-column: span 1;
