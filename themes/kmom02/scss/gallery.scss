@@ -1,10 +1,17 @@
-.grid-page-gallery{
+@import 'variables';
+
+.grid-page-gallery {
     display: grid;
     gap: 2em 2em;
     justify-content: center;
 }
 
 .grid-page-gallery h1 {
-    grid-column: span 2;
+    grid-column: span 3;
     justify-self: center;
+}
+
+.image-style{
+  border: 1px solid #000;
+  border-radius: 4px;
 }
