@@ -90,7 +90,10 @@ hr {
     flex-direction: column;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
@@ -112,6 +115,11 @@ img, embed, object, video {
     width: 100%;
 }
 
+.loading-data-sheet {
+    height: 300px;
+    width: 100%;
+}
+
 .footer {
     background-color: $nav-color;
     border-top: 11px solid $background-color;
@@ -120,7 +128,7 @@ img, embed, object, video {
     height: $footer-height;
     justify-content: center;
     width: 100%;
-    
+
 }
 
 .footer a {

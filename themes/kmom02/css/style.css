@@ -6631,7 +6631,10 @@ hr {
   flex-direction: column;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -6650,6 +6653,11 @@ img, embed, object, video {
   left: 0;
   position: absolute;
   top: 0;
+  width: 100%;
+}
+
+.loading-data-sheet {
+  height: 300px;
   width: 100%;
 }
 
