@@ -6525,6 +6525,7 @@ pre code {
   display: grid;
   gap: 2em 2em;
   justify-content: center;
+  padding: 40px;
 }
 
 .grid-page-gallery h1 {
@@ -6537,6 +6538,22 @@ pre code {
   border-radius: 4px;
 }
 
+.gallery-box {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-page-gallery h1 {
+    grid-column: span 1;
+  }
+  .grid-page h1 {
+    grid-column: span 1;
+  }
+  .side-bar {
+    display: none;
+  }
+}
 body {
   background-color: #5999f7;
 }

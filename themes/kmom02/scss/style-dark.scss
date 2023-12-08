@@ -74,7 +74,7 @@ h6 {
     justify-content: flex-end;
     list-style: none;
     padding: 1em 0;
-   
+
 }
 
 .nav ul li {
@@ -131,6 +131,28 @@ hr {
     width: $hr-width;
 }
 
+.grid-page-gallery {
+    display: grid;
+    gap: 2em 2em;
+    justify-content: center;
+    padding: 40px;
+}
+
+.grid-page-gallery h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.image-style {
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.gallery-box {
+    display: flex;
+    justify-content: center;
+}
+
 .footer {
     background-color: $dark-nav;
     border-top: 11px solid $dark-outline;
@@ -139,7 +161,7 @@ hr {
     height: $footer-height;
     justify-content: center;
     width: 100%;
-    
+
 }
 
 .footer a {
@@ -176,6 +198,21 @@ hr {
 .footer i {
     font-size: $symbolsize;
     padding: $symbolpadding;
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-page-gallery h1 {
+        grid-column: span 1;
+    }
+
+    .grid-page h1 {
+        grid-column: span 1;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
 }
 
 
