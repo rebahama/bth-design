@@ -146,6 +146,7 @@ hr {
 .image-style {
     border: 1px solid #000;
     border-radius: 4px;
+    filter: grayscale(100%);
 }
 
 .gallery-box {
@@ -207,6 +208,31 @@ hr {
 .loading-data-sheet {
     height: 300px;
     width: 100%;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+.embed-container {
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
 }
 
 @media only screen and (max-width: 800px) {
