@@ -1,0 +1,10 @@
+.grid-page-gallery{
+    display: grid;
+    gap: 2em 2em;
+    justify-content: center;
+}
+
+.grid-page-gallery h1 {
+    grid-column: span 2;
+    justify-self: center;
+}

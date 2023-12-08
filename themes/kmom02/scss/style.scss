@@ -8,6 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 @import 'technology';
+@import 'gallery';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -87,6 +88,28 @@ hr {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.embed-container {
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .footer {

@@ -6521,6 +6521,17 @@ pre code {
     display: none;
   }
 }
+.grid-page-gallery {
+  display: grid;
+  gap: 2em 2em;
+  justify-content: center;
+}
+
+.grid-page-gallery h1 {
+  grid-column: span 2;
+  justify-self: center;
+}
+
 body {
   background-color: #5999f7;
 }
@@ -6596,6 +6607,28 @@ hr {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.embed-container {
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .footer {
