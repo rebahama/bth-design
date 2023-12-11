@@ -5,7 +5,8 @@ Template: technologies
 ---
 
 
-### Javascript
+<div class="box-containers">
+ <h3>Javascript </h3>
 <div class="box" id="javascript">
 
 JavaScript Ã¤r ett prototyp-baserat skriptsprÃ¥k. JavaScript utgÃ¶r tillsammans med HTML och CSS grunden fÃ¶r webben. JavaScript Ã¤r dynamiskt, svagt typat och hanterar funktioner som fÃ¶rsta-klass-objekt.
@@ -21,4 +22,5 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 ```
+</div>
 </div>

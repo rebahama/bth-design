@@ -4,7 +4,8 @@ Description: This is my CSS page
 Template: technologies
 ---
 
-### CSS
+<div class="box-containers">
+ <h3>CSS </h3>
 <div class="box" id="css">
 
 
@@ -20,4 +21,5 @@ p {
 }
 ```
 
+</div>
 </div>

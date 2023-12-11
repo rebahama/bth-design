@@ -4,7 +4,8 @@ Description: This is my Python page
 Template: technologies
 ---
 
-### Python
+<div class="box-containers">
+ <h3>Python </h3>
 <div class="box" id="python">
 
 
@@ -19,4 +20,5 @@ for number in range(1, 100 + 1):
     if not number % 2:
         print(number)
 ```
+</div>
 </div>

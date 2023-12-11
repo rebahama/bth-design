@@ -5,7 +5,8 @@ Template: technologies
 ---
 
 
-### PHP
+<div class="box-containers">
+ <h3>PHP </h3>
 <div class="box" id="PHP">
 
 PHP Ã¤r ett populÃ¤rt skriptsprÃ¥k som frÃ¤mst anvÃ¤nds fÃ¶r att skapa webbplatser med dynamiskt innehÃ¥ll. PHP Ã¤r det mest anvÃ¤nda server-side programmeringssprÃ¥k pÃ¥ webben med uppÃ¥t 80% av alla webbplatser som anvÃ¤nder det.
@@ -22,4 +23,5 @@ for ($i = 1; $i <= 100; $i++) {
     }
 }
 ```
+</div>
 </div>

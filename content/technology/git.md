@@ -4,7 +4,8 @@ Description: This is my Git page
 Template: technologies
 ---
 
-### Git
+<div class="box-containers">
+ <h3>GIT </h3>
 <div class="box" id="git">
 
 
@@ -13,4 +14,5 @@ Git Ã¤r ett distribuerat versionshanteringssystem som skapades 2005 av Linus T
 Att Git Ã¤r ett distribuerat system innebÃ¤r att inget centralt arkiv behÃ¶vs. Ett centralt arkiv behÃ¶vs dock om flera utvecklare vill samarbeta om samma kod.
 
 Git Ã¤r tradionellt sett ett CLI verktyg, men en del GUI baserade verktyg har utvecklats fÃ¶r att underlÃ¤tta trÃ¶skeln att bÃ¶rja med Git.
+</div>
 </div>
