@@ -21,6 +21,42 @@ h1 {
     text-align: center;
 }
 
+.intro-heading {
+    display: flex;
+    font-size: 80px;
+}
+
+.intro-heading {
+    white-space: pre-line;
+}
+
+.intro-background-homepage {
+    color: $font-alternative-color;
+    background-color: $intro-design-hierarki-background;
+    padding: 20px;
+    margin: 15px;
+}
+
+.raise {
+    background-color: $box-colours; /* Green */
+    border: none;
+    color: $font-alternative-color;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+  }
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  background-color: red;
+}
+
+
 a:hover {
     color: $font-alternative-color;
 }
