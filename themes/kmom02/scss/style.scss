@@ -38,7 +38,7 @@ h1 {
 }
 
 .raise {
-    background-color: $box-colours; /* Green */
+    background-color: $box-colours;
     border: none;
     color: $font-alternative-color;
     border-radius: 20px;
@@ -48,12 +48,13 @@ h1 {
     display: inline-block;
     cursor: pointer;
     font-size: 16px;
-  }
+}
+
 .raise:hover,
 .raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
-  background-color: red;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: red;
 }
 
 
@@ -80,6 +81,7 @@ h6 {
     position: relative;
 }
 
+
 .nav ul,
 .nav li {
     background-color: $nav-color;
@@ -92,6 +94,39 @@ h6 {
     font-weight: bold;
     padding: 9px;
     text-decoration: none;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: $card-design;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.card-img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
 }
 
 .navmeny a:hover {

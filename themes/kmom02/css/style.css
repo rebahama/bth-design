@@ -6583,7 +6583,7 @@ h1 {
 }
 
 .raise {
-  background-color: rgb(74, 87, 222); /* Green */
+  background-color: rgb(74, 87, 222);
   border: none;
   color: #fff;
   border-radius: 20px;
@@ -6637,6 +6637,39 @@ h6 {
   font-weight: bold;
   padding: 9px;
   text-decoration: none;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .navmeny a:hover {
