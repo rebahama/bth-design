@@ -9,7 +9,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'technology';
 @import 'gallery';
-@import 'testing';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -32,30 +31,29 @@ h1 {
 }
 
 .intro-background-homepage {
-    color: $font-alternative-color;
     background-color: $intro-design-hierarki-background;
-    padding: 20px;
+    color: $font-alternative-color;
     margin: 15px;
+    padding: 20px;
 }
 
 .raise {
     background-color: $box-colours;
-    border: none;
-    color: $font-alternative-color;
     border-radius: 20px;
+    color: $font-alternative-color;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    font-size: 16px;
 }
 
 .raise:hover,
 .raise:focus {
+    background-color: $nav-hover;
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
-    background-color: red;
 }
 
 
@@ -100,9 +98,9 @@ h6 {
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
+    box-shadow: $card-design;
     padding: 16px;
     width: 300px;
-    box-shadow: $card-design;
 }
 
 .card-header {
@@ -112,22 +110,22 @@ h6 {
 }
 
 .card-text {
-    font-size: 14px;
     color: #555;
+    font-size: 14px;
     margin-bottom: 16px;
 }
 
 .card-link {
+    color: $color-links-card;
     display: block;
-    text-decoration: none;
-    color: #007BFF;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .card-img {
-    max-width: 100%;
     border-radius: 8px;
     margin-bottom: 12px;
+    max-width: 100%;
 }
 
 .navmeny a:hover {

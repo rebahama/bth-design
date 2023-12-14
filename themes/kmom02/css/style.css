@@ -6559,58 +6559,6 @@ pre code {
     display: none;
   }
 }
-.slide {
-  overflow-y: hidden !important;
-  transition: height 0.5s ease-in !important;
-}
-
-.nav ul {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1em 0;
-  list-style: none;
-}
-
-.nav ul li {
-  padding: 0 1em;
-}
-
-.nav a, .nav-toggle {
-  color: #333;
-}
-
-.nav-toggle {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .header {
-    flex-direction: column;
-  }
-  .nav ul {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  .nav ul li {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-}
 body {
   background-color: #5999f7;
 }
@@ -6629,30 +6577,29 @@ h1 {
 }
 
 .intro-background-homepage {
-  color: #fff;
   background-color: rgba(19, 22, 22, 0.75);
-  padding: 20px;
+  color: #fff;
   margin: 15px;
+  padding: 20px;
 }
 
 .raise {
   background-color: rgb(74, 87, 222);
-  border: none;
-  color: #fff;
   border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  font-size: 16px;
 }
 
 .raise:hover,
 .raise:focus {
+  background-color: #7c55fa;
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-  background-color: red;
 }
 
 a:hover {
@@ -6695,9 +6642,9 @@ h6 {
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   padding: 16px;
   width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .card-header {
@@ -6707,22 +6654,22 @@ h6 {
 }
 
 .card-text {
-  font-size: 14px;
   color: #555;
+  font-size: 14px;
   margin-bottom: 16px;
 }
 
 .card-link {
+  color: #007bff;
   display: block;
-  text-decoration: none;
-  color: #007BFF;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .card-img {
-  max-width: 100%;
   border-radius: 8px;
   margin-bottom: 12px;
+  max-width: 100%;
 }
 
 .navmeny a:hover {
