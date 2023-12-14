@@ -6594,6 +6594,42 @@ h6 {
   display: none;
 }
 
+.intro-heading {
+  display: flex;
+  font-size: 80px;
+}
+
+.intro-heading {
+  white-space: pre-line;
+}
+
+.intro-background-homepage {
+  color: #fff;
+  background-color: rgba(19, 22, 22, 0.75);
+  padding: 20px;
+  margin: 15px;
+}
+
+.raise {
+  background-color: #122927;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  background-color: red;
+}
+
 .box {
   background-color: #121c29;
 }
@@ -6614,6 +6650,59 @@ a:hover {
 
 .index-page {
   background-color: #121c29;
+  border-radius: 20px;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+.index-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.navmeny a:hover {
+  color: #7c55fa;
+}
+
+.index-page {
+  background-color: rgb(74, 87, 222);
   border-radius: 20px;
   color: #fff;
   margin: 20px;

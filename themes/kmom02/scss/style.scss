@@ -9,6 +9,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'technology';
 @import 'gallery';
+@import 'testing';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -241,3 +242,4 @@ video {
     background-color: $background-alternative-color;
     color: $font-color;
 }
+
