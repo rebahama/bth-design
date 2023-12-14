@@ -6502,6 +6502,7 @@ pre code {
 }
 
 .side-bar a {
+  color: #fff;
   margin: 10px;
   text-decoration: none;
 }
@@ -6699,15 +6700,6 @@ a:hover {
 
 .navmeny a:hover {
   color: #7c55fa;
-}
-
-.index-page {
-  background-color: rgb(74, 87, 222);
-  border-radius: 20px;
-  color: #fff;
-  margin: 20px;
-  padding: 20px;
-  width: 50%;
 }
 
 .index-container {
